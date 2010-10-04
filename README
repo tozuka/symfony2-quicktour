@@ -6,18 +6,27 @@ Symfony 2.0 - Quick Tour
     zip/tgz版(RC3?) だと { hello, src, web } しかない件。
     hello は app に対応しているっぽい。bin にはシェルスクリプトが4本。
 
+  1.2. Check the Configuration
     http://localhost/sandbox2/check.php
     - chmod a+w hello/logs hello/caches
     - /etc/apache2/php.ini 編集
         date.timezone = Asia/Tokyo
         short_open_tag = Off
     - XSLモジュールをインストール (recommended for Propel)
-
-	→ ALL GREEN
-
-  !! index_dev.php でエラー
+    → ALL GREEN
+    !! index_dev.php でエラー
 	→ pathに '%' という文字が入っていると駄目みたい
 
+  1.3. Your first Application
+    1.3.1. Configuration
+      hello/HelloKernel.php
+        末尾にconfigファイルの見る先が記述されている。php,xml,yaml。デフォルトはYAML
+    1.3.2. Routing
+    1.3.3. Controllers
+    1.3.4. Templates
 
-  hello/HelloKernel.php
-    末尾にconfigファイルの見る先が記述されている。php,xml,yaml。デフォルトはYAML
+  1.4. Environments
+    _dev のツールバーは下に出るようになった
+
+  1.5. Final Thoughts
+
