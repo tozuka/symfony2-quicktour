@@ -1,0 +1,8 @@
+Symfony 2.0 - Quick Tour
+
+1 The Big Picture
+  1.1 Download and Install
+    Git版だと { app, bin, src, web } なのに対し
+    zip/tgz版(RC3?) だと { hello, src, web } しかない件。
+    hello は app に対応しているっぽい。bin にはシェルスクリプトが4本。
+
