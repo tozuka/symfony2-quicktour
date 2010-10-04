@@ -6,3 +6,12 @@ Symfony 2.0 - Quick Tour
     zip/tgz版(RC3?) だと { hello, src, web } しかない件。
     hello は app に対応しているっぽい。bin にはシェルスクリプトが4本。
 
+    http://localhost/sandbox2/check.php
+    - chmod a+w hello/logs hello/caches
+    - /etc/apache2/php.ini 編集
+        date.timezone = Asia/Tokyo
+        short_open_tag = Off
+    - XSLモジュールをインストール (recommended for Propel)
+
+	→ ALL GREEN
+
