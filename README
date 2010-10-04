@@ -15,3 +15,9 @@ Symfony 2.0 - Quick Tour
 
 	→ ALL GREEN
 
+  !! index_dev.php でエラー
+	→ pathに '%' という文字が入っていると駄目みたい
+
+
+  hello/HelloKernel.php
+    末尾にconfigファイルの見る先が記述されている。php,xml,yaml。デフォルトはYAML

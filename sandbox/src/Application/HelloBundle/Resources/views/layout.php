@@ -1,5 +1,5 @@
 <?php $view->extend('::layout') ?>
 
-<h1>Hello Application</h1>
+<h2>Hello アプリケーションである</h2>
 
 <?php $view['slots']->output('_content') ?>
